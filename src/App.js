@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 
@@ -10,7 +9,7 @@ function App() {
 
   const tasksList = tasks.map((task) => {
     return (
-      <div className="justify-between flex bg-indigo-500 mb-2 p-3 px-6 rounded-2xl">
+      <div className="justify-between flex devbg-indigo-500 mb-2 p-3 px-6 rounded-2xl">
         <div>
           <li key={task.id} className="text-xl text-white list-none">
             {task.name}
